@@ -13,7 +13,7 @@ public class LoginPage {
 		this.driver=ldriver;
 		
 	}
-	
+	//Adding new comment
 	@FindBy(xpath="//span[text()='Log In']") WebElement Loginbtn;
 	
 	@FindBy(name="email") WebElement Uname;
